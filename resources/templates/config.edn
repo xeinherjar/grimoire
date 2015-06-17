@@ -1,7 +1,7 @@
 {:site-title       "Alex Pate"
  :author           "Alex Pate"
  :description      "Where I can wax poetically about programming."
- :site-url         "http://alexpate.com/"
+ :site-url         "http://xeinherjar.github.io"
  :post-root        "posts"
  :tag-root         "tags"
  :page-root        "pages"
@@ -13,7 +13,7 @@
  :sass-src         nil
  :sass-dest        nil
  :resources        ["css" "js" "img" "404.html"]
- :keep-files       [".git"]
+ :keep-files       [".git" ".ico"]
  :disqus?          false
  :disqus-shortname ""
  :ignored-files    [#"\.#.*" #".*\.swp$"]}

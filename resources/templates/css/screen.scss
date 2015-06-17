@@ -1,3 +1,6 @@
+$highlight-color: #E25C22;
+$main-color: #D3D3D3;
+
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Alegreya';
 }
@@ -24,39 +27,37 @@ body {
 }
 
 .navbar-default {
-    background-color: #428bca;
+    background-color: $main-color;
     border: none;
 }
 
 .navbar-default .navbar-brand {
-    color: #fff;
+    color: #000;
     font-family: 'Alegreya';
 }
 
 .navbar-default .navbar-brand:hover {
-    color: #fff;
+    color: $highlight-color;
 }
 
 .navbar-default .navbar-nav li a {
-    color: #fff;
+    color: #000;
 }
 
 .navbar-default .navbar-nav li a:hover {
-    color: #fff;
-    background-color: #3d80ba;
+    color: $highlight-color;
 }
 
 .navbar-default .navbar-nav .active a {
-    color: #fff;
-    background-color: #3d80ba;
+    color: $highlight-color;
 }
 
 .navbar-default .navbar-toggle:hover{
-    background-color: #3d80ba;
+    background-color: $highlight-color;
 }
 
 .navbar-default .navbar-toggle .icon-bar {
-    background-color: #fff;
+    //background-color: #fff;
 }
 
 #sidebar {
@@ -114,7 +115,8 @@ pre code {
 }
 
 code {
-    color: #428bca;
+    color: $highlight-color;
+    //color: #428bca;
 }
 
 pre, code, .hljs {
