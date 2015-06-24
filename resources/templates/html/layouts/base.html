@@ -56,25 +56,7 @@
 
         <div class="col-md-3">
             <div id="sidebar">
-                <h3>Links</h3>
-                <ul id="links">
-                    <li><a href="http://portfolio.alexpate.net/">Portfolio</a></li>
-                    <li><a href="https://github.com/xeinherjar">GitHub</a></li>
-                    {% for page in sidebar-pages %}
-                    <li><a href="{{page.uri}}">{{page.title}}</a></li>
-                    {% endfor %}
-                </ul>
-                {% if latest-posts|not-empty %}
-                <div id="recent">
-                    <h3>Recent Posts</h3>
-                    <ul>
-                        {% for post in latest-posts %}
-                        <li><a href="{{post.uri}}">{{post.title}}</a></li>
-                        {% endfor %}
-                    </ul>
-                </div>
-                {% endif %}
-                {% if tags|not-empty %}
+               {% if tags|not-empty %}
                 <div id="tags">
                     <h3>Tags</h3>
                     <ul>
